@@ -19,8 +19,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
       $user=$_POST['username'];
       $password=$_POST['password'];
 
-      $sql = "INSERT INTO PROVA_USUARI (NOM, LLINATGES, USUARI, CONTRASENYA)
-      VALUES ('$nom', '$llinatges', '$user', '$password')";
+      $sql = "INSERT INTO CANTINA_USUARI (NOM, LLINATGES, USUARI, CONTRASENYA, CREDITS)
+      VALUES ('$nom', '$llinatges', '$user', '$password', '')";
 
       if ($conn->query($sql) === TRUE) {
           header("location: usuaris.php");
