@@ -20,7 +20,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
       $password=$_POST['password'];
 
       $sql = "INSERT INTO CANTINA_USUARI (NOM, LLINATGES, USUARI, CONTRASENYA, CREDITS)
-      VALUES ('$nom', '$llinatges', '$user', '$password', '')";
+      VALUES ('$nom', '$llinatges', '$user', '$password', '$zero')";
 
       if ($conn->query($sql) === TRUE) {
           header("location: usuaris.php");
