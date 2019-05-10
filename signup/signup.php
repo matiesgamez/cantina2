@@ -36,7 +36,7 @@
 			<div class="login100-more" style="background-image: url('imatges/comidachatarra.jpg');"></div>
 
 			<div class="wrap-login100 p-l-50 p-r-50 p-t-72 p-b-50">
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form" action="login.php" method="post">>
 					<span class="login100-form-title p-b-59">
 						Enregistre't
 					</span>
@@ -95,7 +95,7 @@
 							</button>
 						</div>
 
-						<a href="login/login.html" class="dis-block txt3 hov1 p-r-30 p-t-10 p-b-10 p-l-30">
+						<a href="xx/xx.php" class="dis-block txt3 hov1 p-r-30 p-t-10 p-b-10 p-l-30">
 							Entra
 							<i class="fa fa-long-arrow-right m-l-5"></i>
 						</a>

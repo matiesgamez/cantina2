@@ -24,7 +24,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
       
       // If result matched $myusername and $mypassword, table row must be 1 row
       if($count == 1) {
-         header("location: usuaris.php");
+         header("location: perfil.php");
       }else {
          $error = "Usuari o contasenya incorrectes <br>";
       }
@@ -63,9 +63,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
 	
 	<div class="limiter">
-		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
+		<div class="container-login100" style="background-image: url('images/login/bg-01.jpg');">
 			<div class="wrap-login100">
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form" action="login.php" method="post">
 					<span class="login100-form-logo">
 						<i class="zmdi zmdi-landscape"></i>
 					</span>
@@ -92,9 +92,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 					</div>
 
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
+						<button <input class="input100" type="submit" name="envia" value="Entra">
 							Entra
+                                                       
 						</button>
+                                            
 					</div>
 
 					<div class="text-center p-t-90">
@@ -102,6 +104,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 							Has oblidat la contrasenya?
 						</a>
 					</div>
+                                    <?php echo $error; ?>
 				</form>
 			</div>
 		</div>
