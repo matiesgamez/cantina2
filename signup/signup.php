@@ -95,7 +95,7 @@
 							</button>
 						</div>
 
-						<a href="xx/xx.php" class="dis-block txt3 hov1 p-r-30 p-t-10 p-b-10 p-l-30">
+						<a href="login/login.php" class="dis-block txt3 hov1 p-r-30 p-t-10 p-b-10 p-l-30">
 							Entra
 							<i class="fa fa-long-arrow-right m-l-5"></i>
 						</a>
