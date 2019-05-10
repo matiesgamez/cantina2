@@ -63,7 +63,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
 	
 	<div class="limiter">
-		<div class="container-login100" style="background-image: url('images/login/bg-01.jpg');">
+		<div class="container-login100" style="background-image: url('login/images/bg-01.jpg');">
 			<div class="wrap-login100">
 				<form class="login100-form validate-form" action="login.php" method="post">
 					<span class="login100-form-logo">
