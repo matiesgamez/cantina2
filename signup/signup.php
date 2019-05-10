@@ -29,7 +29,7 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
 </head>
-<body style="">
+<body style="background-image: url('signup/images/comidachatarra.jpg');">
 	
 	<div class="limiter">
 		<div class="container-login100">
